@@ -1,7 +1,7 @@
 .menu {
     display: inline-block;
 }
-nav, ul {
+nav {
     list-style: none;
 }   
 aside {
@@ -21,7 +21,7 @@ header {
     background-color: lightgray;
     text-align: left;
 }
-#lists {
+#lists > *not(li, ul) {
     float: left;
 }
 #tables {
