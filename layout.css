@@ -25,7 +25,9 @@ header {
     float: left;
 }
 #tables {
-    margin: auto;
     float: right;
+}
+table {
+    margin: auto;
 }
 #hyperlinks {clear:both; float:left; }
