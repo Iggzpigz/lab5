@@ -21,8 +21,9 @@ header {
     background-color: lightgray;
     text-align: left;
 }
-#lists > *not(li, ul) {
+#lists {
     float: left;
+    list-style-position: inside;
 }
 #tables {
     float: right;
