@@ -31,3 +31,21 @@ table {
     margin: auto;
 }
 #hyperlinks {clear:both; float:left; }
+footer {
+    clear: both;
+}
+#images {
+    float: right;
+}
+figure {
+    border: 2px solid #ccc;
+}
+#lists, #images, #tables, #hyperlinks {
+    width: 50%;
+    text-align: center;
+}
+article { min-width:30em; }
+footer p {display:inline-block;  width:33%}
+footer p:first-child { float:left; }
+footer p:nth-child(2) {text-align: center; }
+footer p:last-child {float:right; text:align:right; }
