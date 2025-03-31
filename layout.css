@@ -36,6 +36,7 @@ footer {
 }
 #images {
     float: right;
+    text-align : center;
 }
 figure {
     border: 2px solid #ccc;
@@ -49,3 +50,31 @@ footer p {display:inline-block;  width:33%}
 footer p:first-child { float:left; }
 footer p:nth-child(2) {text-align: center; }
 footer p:last-child {float:right; text:align:right; }
+nav a {
+    text-decoration: none;
+    padding:0.2em 0.6em;
+    border: 4px solid #ccc;
+   }     
+h1, h2, h3 {
+    font-family: arial, sans-serif;
+}
+.special {
+    color: darkorange;
+    font-weight:bold;
+   }  
+table, th, td {
+    border: 1px solid black;   
+    }
+aside, footer { font-style: italic; }  
+#head { 
+    color: #f60505;
+}
+h2, h3 {
+    color: darkcyan;
+}
+h1 { 
+    color: purple;
+}
+#para { 
+    color: black;
+}
