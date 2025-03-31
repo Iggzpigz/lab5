@@ -3,4 +3,11 @@
 }
 nav, ul {
     list-style: none;
+}   
+aside {
+    border: 4px inset purple;
+    border-radius: 14px;
+    margin: 1em;
+    padding: 1em;
+    background:url(images/fade.jpg) repeat-x top left;
 }
