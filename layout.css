@@ -10,4 +10,18 @@ aside {
     margin: 1em;
     padding: 1em;
     background:url(images/fade.jpg) repeat-x top left;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+header {
+    border: 1px darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: left;
+}
+#lists {
+    float: left;
+    
 }
