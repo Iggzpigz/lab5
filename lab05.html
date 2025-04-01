@@ -15,14 +15,13 @@
    <header>
 		<h1>HTML 5 Basic Content Elements with CSS Layout</h1>
     </header> 
-	<nav>
+	<nav> <!--Navigation menu with links to main sections-->
         <p class="menu"><a href="#headings">Heading and Paragraphs</a></p> 
 		<p class="menu"><a href="#sc">Special Characters</a> </p> 
 		<p class="menu"><a href="#lists">Lists</a></p> 
 		<p class="menu"><a href="#tables">Tables</a></p> 
 		<p class="menu"><a href="#images">Images</a></p> 
 		<p class="menu"><a href="#hyperlinks">Hyperlinks</a></p> 
-		
     </nav>
    	<article>   
       <h2>HTML5 Basic Elements</h2>
@@ -43,10 +42,8 @@
 		  <h2 id="sc">Special Characters</h2>
 		  <p>While HTML supports many named special characters like <span class="special">&#174; (#174)</span>, XML only supports 5 namely: <span class="special">&quot; &apos; &amp; &lt;</span>  and <span class="special">&gt;</span>.  So to keep you HTML compliant you need to use numbers for all the others.</p>
       </section>
-         
-      
       <!-- Comments can be useful to indicate various sections of markup-->
-      <!--Lists-->
+      <!--Description of different kinds of lists with examples-->
       <section id="lists">
 		  <h2>Lists</h2>
       <p>There are three types of lists: Unordered and Ordered lists, and Definition Lists</p>
@@ -82,7 +79,7 @@
 			 <li>Third item</li>
 			</ol>		
 		</section>
-		<section id="tables">
+		<section id="tables"> <!--Tables-->
 		  <h2>Tables</h2>
 		  <table>
 			 <caption>Table of Monthly Savings</caption>
@@ -121,25 +118,22 @@
 			</tfoot>
 			</table>
 		</section>
-		<section id="hyperlinks">
+		<section id="hyperlinks"> <!--Hyperlinks-->
 		  <h2>Hyperlinks</h2>
 		  <p><a href="http://ilearn.swin.edu.au" title="This takes you to Blackboard"> This is a link to an external site Blackboard</a></p>
 		  <p>This is a link to the <a href="#list">List Section </a> of the Web page</p>
 		  <p>This is a link using <a href="mailto:someone@swin.edu.au"> email</a> rather than an http protocol</p> 
 		</section>
-		<section id="images">
+		<section id="images"> <!--Images-->
 			<h2 >Images</h2>
 			<figure><figcaption>This thumbnail image is used as a hyperlink to a larger version of the image</figcaption>
-			<a href="images/mycat.jpg">  <img src="images/mycat_small.jpg" alt="Photo of my cat" title="Filesize 222kb " /></a></figure>
+			<a href="images/mycat.jpg">  <img src="images/mycat_small.jpg" alt="Photo of my cat" title="Filesize 222kb "></a></figure>
 		</section>
-      
 	</article>
-	
 	<footer>
 		<p>COS10011/COS60004/COS60007 CWA</p>
 		<p>&#169; Swinburne University of Technology</p>
 		<p>Lab05 - Task 1</p>
 	</footer>
 </body>
-
 </html>
