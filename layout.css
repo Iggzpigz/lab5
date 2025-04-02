@@ -3,6 +3,7 @@
 }
 nav {
     list-style: none;
+    color: black;
 }   
 aside {
     border: 4px inset purple;
